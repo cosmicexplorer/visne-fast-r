@@ -1,0 +1,3 @@
+useDynLib(visne-fast-r, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
